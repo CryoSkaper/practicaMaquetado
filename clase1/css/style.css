@@ -1,0 +1,16 @@
+html{
+   /*  scroll-behavior: smooth; */
+}
+body{
+    background-color: #303030;
+    color: white;
+}
+
+a{
+    color: green;
+}
+
+div{
+    margin: 1% 20% 100% 20%;
+}
+
