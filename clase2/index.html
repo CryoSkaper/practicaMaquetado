@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase2</title>
+    <!-- esta etiqueta sirve para poder asignar un autor o creador a la pagina -->
+    <meta name="author" content="Patrick Andrei">
+    <!-- esta eitqueta sirve para asignarle etiquetas o categorias a la pagina  -->
+    <meta name="keywords" content="clase, css, etc.">
+    <!-- estilos internos/ esta etiqueta se contiene dentro de head por que si se mete en
+         body no carga la idea es que cuando carge el navegador la pagina cargue desde
+          arriba hasta abajo -->
+    <style>
+        /* todo lo que querramos que defina el estilo de la pagina debe de ir contenido
+         dentro de esta etiqueta de style */
+        p{
+            color: rgb(0, 140, 255);
+            text-decoration: underline;
+        }
+    </style>
+<!-- que tipo de enlace estamos insertando y donde se encuentra el primer atributo se llama reel ahi vamos a meter con l oque vamos a trabajar, normalmente se pone stylesheet en hsref se pone la ubicacion del archivo -->
+    <link rel="stylesheet" href="../clase2/css/style.css">
+</head>
+<div>
+<body>
+    
+    <!-- estilos inline o estilos en linea  -->
+    <H1 style="background-color: skyblue; color: red; font-size: 40px;"> Clase CSS </H1>
+         <!-- este tipo de arreglo css solo se usa para cambios muy especificos ya que complica el manetnimiento de la pagina  -->
+    
+    <p class="fondoMorado">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad aperiam quia reprehenderit asperiores qui dolor sunt obcaecati modi optio quis sequi, id aut totam eius! Nam ipsam ad id.
+    </p>
+
+    <p id="hola">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aperiam dolores quam molestias totam ad dolorem! Dignissimos totam amet necessitatibus esse, aspernatur, repellat, ipsam cumque consequatur dolorem fugit quam beatae.
+    </p>
+    <hr>
+
+    <p class="fondoMorado" id="hola">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sequi id nobis esse natus voluptas, aspernatur minima quaerat. Ea nisi nostrum consectetur aut iste necessitatibus possimus non eaque placeat ut?
+<!-- se pueden combinar ID y clases pero siempre va atener la prioridad de estilo el ID sobre la clase -->
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, nesciunt, sint nobis repudiandae in quis quaerat minus sit doloremque quam culpa necessitatibus omnis architecto ipsum impedit porro, pariatur voluptatum distinctio.
+    </p>
+
+    <ul>
+        <li class="fondoMorado">123</li>
+        <li>fsef</li>
+        <li>casc</li>
+        <li>bnsdfbs</li>
+        <li>43567</li>
+    </ul>
+</div>
+
+<div>
+<p class="padding"; style="margin: 2%;">Hola </p>
+</div>
+
+</body>
+</html>

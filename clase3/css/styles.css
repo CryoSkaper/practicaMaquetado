@@ -1,0 +1,9 @@
+/* selector hermano */
+/* selector hermano general */
+/* selector hijo  */
+/* selector hermano */
+
+.boton:hover{
+    background-color: black;
+    color: white;
+}

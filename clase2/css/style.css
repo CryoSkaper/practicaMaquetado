@@ -1,0 +1,44 @@
+
+ul{
+    list-style: square;
+    font-size: 20px;
+}
+
+p{
+    background-color: pink;
+    color: black;
+}
+
+/* sleccionar mediante el selector de clase  */
+
+    .fondoMorado{
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(182,37,37,1) 50%, rgba(0,0,0,1) 100%);
+
+        color: aliceblue;
+    }
+
+/* sleccionar mediante el selector de ID  */
+ 
+    #hola{
+        background-color: khaki;
+    }
+    
+    /* # para ID | . para Class */
+
+    /* selectroy name
+    -selector de etiqueta
+    -id 
+    -clases  [orden de prioridades] */
+
+
+
+    div{
+        width: 500px; 
+        border: 1px solid red;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    /* la etiqueta div es un borde, se puede definir el color del borde el tama;o del borde  */
+    .padding{
+        
+    }
