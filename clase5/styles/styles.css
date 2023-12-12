@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  /*   overflow: hidden; normal*/
+    /* overflow-x: hidden; esto funciona en sentido horizontal*/
+    /* overflow-y: hidden; Este funciona en sentido vertical*/
+}/* esto esconde  el contenido extra fuera del area de vista (view port) */
+
+.articuloNoResponsive{
+    width: 800px;
+    min-height: 400px;
+ /*    height: 400px; */
+    padding: 20px;
+    background-color: red;
+    color: white;
+
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ArticuloResponsive{
+    width: 100%;
+    min-height: 400px;
+ /*    height: 400px; */
+    padding: 20px;
+    background-color: blue;
+    color: white;
+
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: inline-block;
+}
+
+.responsiveChild1{
+
+    width:  33%;
+    border: 1px solid black;
+
+
+}
+.responsiveChild2:hover{
+
+    width: 66%;
+    border: 1px solid black;
+    height: 70%;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: purple;
+}
+.ArticuloResponsive{
+    @media screen and (max-width: 700px) {
+        background-color: green;        
+    }
+}
+
+
+
